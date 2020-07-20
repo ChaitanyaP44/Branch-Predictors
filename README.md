@@ -63,7 +63,7 @@ make run
 ```
 make clean
 ````
-#To run after compiling with any other trace file:
+#To run with any other trace file of same format:
 ```
 ./predictors filename.txt
 ./predictors_check filename.txt
