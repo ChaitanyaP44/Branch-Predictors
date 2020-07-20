@@ -66,7 +66,7 @@ make clean
 ```
 
 
-# Here predictors_check.cpp file is used to debug the logics used in main file (predictors.cpp). Here, predictors_check.cpp generates some output txt file which can be checked by user.
+Here predictors_check.cpp file is used to debug the logics used in main file (predictors.cpp). Here, predictors_check.cpp generates some output txt file which can be checked by user to check correctness of logic.
 	
 
 ###################### Files included to run this project ######################################################
