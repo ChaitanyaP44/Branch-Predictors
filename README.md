@@ -7,11 +7,11 @@ The aim is to compare accuracy of these schemes by plotting graph between mis-pr
 
 A trace file of 16M conditional branch outcomes is given as input to this program. This trace file is generated from an execution of the program GCC (Gnu C Compiler) from the SPECint2000 benchmark suite.
 
-Trace format:
-3086629644 T
-3086629604 N
-3086629616 N
-3086629644 T
+Trace format 
+- 3086629644 T
+- 3086629604 N
+- 3086629616 N
+- 3086629644 T
 
 The program consist of 8 different functions implementing branch predictor schemes. Here gshare and bimodal functions are reused by tournament function as well.It prints all the results in a text and csv file.
 
