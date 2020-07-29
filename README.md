@@ -35,11 +35,11 @@ Program reads in the trace and calculate the mis-prediction rate based on static
 This turns out to be best as far as accuracy is concerned on the cost of larger storage size as we are using three tables of same sizes here, which is three times the size of bimodal and gshare.
 - case2: This case for giving fair advantage to gshare and bimodal schemes asin this case we use same storage as bimodal and gshare for tournament scheme. For implementating this case different tables sizes of bimodal and ghsare are taken in order to get total storage equivalent to 2^n. 
 
-Chooser table: 2n-2 counters
-Bimodal table: 2n-2 counters
-Gshare table: 2n-1 counters
+Chooser table: 2^n-2 counters
+Bimodal table: 2^n-2 counters
+Gshare table: 2^n-1 counters
 
-As 2n-2 + 2n-2 + 2n-1 is equal to 2n, this becomes a fair "same size" comparison
+As 2^n-2 + 2^n-2 + 2^n-1 is equal to 2^n, this becomes a fair "same size" comparison
 
 ## Check Correctness of Implementation
 Another similar program *"predictors_check.cpp"* is written to check the correctness of the implementation. This program takes a small trace file which consist only first 201 entries of original trace file used in main program, it prints contents of pattern history table, history register and prediction result for corresponding to each branch address. This program generates three text files each for scheme with specific history registers and predictor sizes as follows:
