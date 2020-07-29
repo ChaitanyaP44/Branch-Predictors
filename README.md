@@ -33,7 +33,7 @@ Program reads in the trace and calculate the mis-prediction rate based on static
 
 - case1:  A tournament predictor consists of three tables. The first and second tables are just normal bimodal and gshare predictors. The third table is a "chooser" table that predicts whether the bimodal or gshare predictor will be more accurate. In this case tournament is implemented with three equal sizes of 2^n-counter tables.
 This turns out to be best as far as accuracy is concerned on the cost of larger storage size as we are using three tables of same sizes here, which is three times the size of bimodal and gshare.
-- case2: This case for giving fair advantage to gshare and bimodal schemes asin this case we use same storage as bimodal and gshare for tournament scheme. For implementating this case different tables sizes of bimodal and ghsare are taken in order to get total storage equivalent to 2^n. 
+- case2: This case for giving fair advantage to gshare and bimodal schemes as in this case we use same storage as bimodal and gshare for tournament scheme. For implementating this case different tables sizes of bimodal and ghsare are taken in order to get total storage equivalent to 2^n. 
 
 Chooser table: 2^n-2 counters
 Bimodal table: 2^n-2 counters
@@ -91,7 +91,7 @@ Here predictors_check.cpp file is used to debug the logics used in main file (pr
 
 ## Files included to run this project 
 * branch-trace-gcc.txt: Tarce file with 16 million entries (this is zipped).
-* branch-trace-gcc.txt_small: Tarce file with 201 entries.Which is used by predictors_check.cpp to generate results to compare available reference output files.
+* branch-trace-gcc.txt_small: Tarce file with 201 entries which is used by predictors_check.cpp to generate results to check correctness.
 
 
 ##
