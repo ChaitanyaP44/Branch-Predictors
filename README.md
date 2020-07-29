@@ -1,7 +1,7 @@
 # BranchPredictors
 ## Implementation of branch prediction schemes
 
-Implementation of Global dynamic branch predictors (Bimodal, Gshare, Tournament) and Static predictors (always taken and always not taken) with a C++ program "predictors.cpp".
+Implementation of Global dynamic branch predictors (Bimodal, Gshare, Tournament) and Static predictors (always taken and always not taken) with a C++ program *"predictors.cpp"*.
 
 The aim is to compare accuracy of these schemes by plotting graph between mis-prediction rate and varying parameters like predictor sizes and size of history bits register(in case of gshare). This helps us to find effectiveness of various branch predictor schemes.
 
@@ -13,7 +13,7 @@ A trace file of 16M conditional branch outcomes is given as input to this progra
 - 3086629616 N
 - 3086629644 T
 
-The program consist of 8 different functions implementing branch predictor schemes. Here gshare and bimodal functions are reused by tournament function as well.It prints all the results in a text and csv file.
+Program *"predictors.cpp"* consist of 8 different functions implementing branch predictor schemes. Here gshare and bimodal functions are reused by tournament function as well.It prints all the results in a text and csv file.
 
 
 ## Static predictors (always taken and always not taken) : 
@@ -41,8 +41,24 @@ Gshare table: 2n-1 counters
 
 As 2n-2 + 2n-2 + 2n-1 is equal to 2n, this becomes a fair "same size" comparison
 
-## Check Correctness
-Another similar program "predictors_check.cpp" is written to check the correctness of the implementation. This program takes a small trace file which consist only first 200 entries of original trace file used in main program, it prints contents of pattern history table, history register and prediction result for corresponding to each branch address. This program generates three text files each for bimodal, gshare and tournament with specific history registers and predictor sizes. The correctness of the implementation can be manually checked from these output files. 
+## Check Correctness of Implementation
+Another similar program *"predictors_check.cpp"* is written to check the correctness of the implementation. This program takes a small trace file which consist only first 200 entries of original trace file used in main program, it prints contents of pattern history table, history register and prediction result for corresponding to each branch address. This program generates three text files each for scheme with specific history registers and predictor sizes as follows:
+
+* **Bimodal**: With 2^3 counters i.e. predictor size of 8:
+	* nNNNTNNN | b7fa3ae4  T | T  correct    3
+	* The columns are: table counter state, PC from input trace (but in hexadecimal rather than binary) , branch outcome from input trace, prediction made, prediction result     (correct/incorrect), running total of mis-predictions thus far
+	
+* **Gshare**: With 2^4 counters and history length of 3:
+	* NNnNNntNnNNNNNNN  NTN | b7fa3ae4  T | T  correct    5
+	* The columns are: table counter state, history register, PC from input trace (in hex), branch outcome from input trace, prediction made, prediction result (correct/incorrect), running total of mis-predictions thus far.
+	
+* **Tournament**: With a chooser table with 2^3 counters, a bimodal with 2^3 counters, and a gshare with 2^4 counters with a history length of 4:
+	* BBBBBBBB nNNNTNNN NNNNNnNNnNNNNNtN  TNTN | b7fa3ae4  T | T  correct    3
+	* The columns are: chooser predictor table, bimodal predictor, gshare predictor table, gshare history register, PC from input trace (in hex), branch outcome from input trace, prediction made, prediction result (correct/incorrect), running total of mis-predictions thus far.
+	
+
+
+**_The correctness of the implementation can be manually checked from these output files._** 
 
 
 
