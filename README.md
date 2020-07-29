@@ -63,7 +63,7 @@ Another similar program *"predictors_check.cpp"* is written to check the correct
 
 
 
-## Instructions to run this project
+## Instructions to run 
 **Before running this project extract 'branch-trace-gcc.zip'. And put branch-trace-gcc.txt in main folder.**
 * Commands To run the project:
 
