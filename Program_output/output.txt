@@ -1,1 +1,582 @@
 
+Static always taken
+
+Correct predictions = 6211595, Total predictions = 16416279, Mis-predictions Rate = 62.162
+
+
+Static always not taken
+
+Correct predictions = 10204684, Total predictions = 16416279, Mis-predictions Rate = 37.838
+*******************************************************************************
+
+
+Bimodal with variable counter size
+
+
+
+Predictor with size 4.
+Correct predictions = 10593236, Total predictions = 16416279, Mis-predictions Rate = 35.4711
+
+
+Predictor with size 8.
+Correct predictions = 10876409, Total predictions = 16416279, Mis-predictions Rate = 33.7462
+
+
+Predictor with size 16.
+Correct predictions = 11313372, Total predictions = 16416279, Mis-predictions Rate = 31.0844
+
+
+Predictor with size 32.
+Correct predictions = 11543027, Total predictions = 16416279, Mis-predictions Rate = 29.6855
+
+
+Predictor with size 64.
+Correct predictions = 11881980, Total predictions = 16416279, Mis-predictions Rate = 27.6207
+
+
+Predictor with size 128.
+Correct predictions = 12318670, Total predictions = 16416279, Mis-predictions Rate = 24.9606
+
+
+Predictor with size 256.
+Correct predictions = 12783932, Total predictions = 16416279, Mis-predictions Rate = 22.1265
+
+
+Predictor with size 512.
+Correct predictions = 13306139, Total predictions = 16416279, Mis-predictions Rate = 18.9455
+
+
+Predictor with size 1024.
+Correct predictions = 13798174, Total predictions = 16416279, Mis-predictions Rate = 15.9482
+
+
+Predictor with size 2048.
+Correct predictions = 14137802, Total predictions = 16416279, Mis-predictions Rate = 13.8794
+
+
+Predictor with size 4096.
+Correct predictions = 14368276, Total predictions = 16416279, Mis-predictions Rate = 12.4754
+
+
+Predictor with size 8192.
+Correct predictions = 14470560, Total predictions = 16416279, Mis-predictions Rate = 11.8524
+
+
+Predictor with size 16384.
+Correct predictions = 14562263, Total predictions = 16416279, Mis-predictions Rate = 11.2938
+
+
+Predictor with size 32768.
+Correct predictions = 14576368, Total predictions = 16416279, Mis-predictions Rate = 11.2078
+
+
+Predictor with size 65536.
+Correct predictions = 14588954, Total predictions = 16416279, Mis-predictions Rate = 11.1312
+
+
+Predictor with size 131072.
+Correct predictions = 14591334, Total predictions = 16416279, Mis-predictions Rate = 11.1167
+
+
+Predictor with size 262144.
+Correct predictions = 14602207, Total predictions = 16416279, Mis-predictions Rate = 11.0504
+
+
+Predictor with size 524288.
+Correct predictions = 14602141, Total predictions = 16416279, Mis-predictions Rate = 11.0508
+
+
+Predictor with size 1048576.
+Correct predictions = 14602465, Total predictions = 16416279, Mis-predictions Rate = 11.0489
+*******************************************************************************
+
+
+Gshare Case 1
+Gshare with variable counter size and fixed history bits 8
+
+
+
+Predictor with size 4.
+Correct predictions = 10475343, Total predictions = 16416279, Mis-predictions Rate = 36.1893
+
+
+Predictor with size 8.
+Correct predictions = 10654992, Total predictions = 16416279, Mis-predictions Rate = 35.095
+
+
+Predictor with size 16.
+Correct predictions = 10750789, Total predictions = 16416279, Mis-predictions Rate = 34.5114
+
+
+Predictor with size 32.
+Correct predictions = 10990276, Total predictions = 16416279, Mis-predictions Rate = 33.0526
+
+
+Predictor with size 64.
+Correct predictions = 11243284, Total predictions = 16416279, Mis-predictions Rate = 31.5114
+
+
+Predictor with size 128.
+Correct predictions = 11474369, Total predictions = 16416279, Mis-predictions Rate = 30.1037
+
+
+Predictor with size 256.
+Correct predictions = 11773408, Total predictions = 16416279, Mis-predictions Rate = 28.2821
+
+
+Predictor with size 512.
+Correct predictions = 12378729, Total predictions = 16416279, Mis-predictions Rate = 24.5948
+
+
+Predictor with size 1024.
+Correct predictions = 13058229, Total predictions = 16416279, Mis-predictions Rate = 20.4556
+
+
+Predictor with size 2048.
+Correct predictions = 13767681, Total predictions = 16416279, Mis-predictions Rate = 16.134
+
+
+Predictor with size 4096.
+Correct predictions = 14385848, Total predictions = 16416279, Mis-predictions Rate = 12.3684
+
+
+Predictor with size 8192.
+Correct predictions = 14833733, Total predictions = 16416279, Mis-predictions Rate = 9.6401
+
+
+Predictor with size 16384.
+Correct predictions = 15054690, Total predictions = 16416279, Mis-predictions Rate = 8.29414
+
+
+Predictor with size 32768.
+Correct predictions = 15196112, Total predictions = 16416279, Mis-predictions Rate = 7.43266
+
+
+Predictor with size 65536.
+Correct predictions = 15264859, Total predictions = 16416279, Mis-predictions Rate = 7.01389
+
+
+Predictor with size 131072.
+Correct predictions = 15284256, Total predictions = 16416279, Mis-predictions Rate = 6.89573
+
+
+Predictor with size 262144.
+Correct predictions = 15299100, Total predictions = 16416279, Mis-predictions Rate = 6.80531
+
+
+Predictor with size 524288.
+Correct predictions = 15301152, Total predictions = 16416279, Mis-predictions Rate = 6.79281
+
+
+Predictor with size 1048576.
+Correct predictions = 15302625, Total predictions = 16416279, Mis-predictions Rate = 6.78384
+*******************************************************************************
+
+
+Gshare Case 3
+Gshare with varying history bits from 0 to 19 and table sizes 2^10 and 2^16
+
+
+
+Predictor with size 1024 with index & history bits 0.
+Correct predictions = 13798174, Total predictions = 16416279, Mis-predictions Rate = 15.9482
+
+
+Predictor with size 65536 with index & history bits 0.
+Correct predictions = 14588954, Total predictions = 16416279, Mis-predictions Rate = 11.1312
+
+
+Predictor with size 1024 with index & history bits 1.
+Correct predictions = 13811095, Total predictions = 16416279, Mis-predictions Rate = 15.8695
+
+
+Predictor with size 65536 with index & history bits 1.
+Correct predictions = 14749970, Total predictions = 16416279, Mis-predictions Rate = 10.1503
+
+
+Predictor with size 1024 with index & history bits 2.
+Correct predictions = 13757741, Total predictions = 16416279, Mis-predictions Rate = 16.1945
+
+
+Predictor with size 65536 with index & history bits 2.
+Correct predictions = 14906878, Total predictions = 16416279, Mis-predictions Rate = 9.19454
+
+
+Predictor with size 1024 with index & history bits 3.
+Correct predictions = 13659352, Total predictions = 16416279, Mis-predictions Rate = 16.7939
+
+
+Predictor with size 65536 with index & history bits 3.
+Correct predictions = 14971457, Total predictions = 16416279, Mis-predictions Rate = 8.80115
+
+
+Predictor with size 1024 with index & history bits 4.
+Correct predictions = 13477193, Total predictions = 16416279, Mis-predictions Rate = 17.9035
+
+
+Predictor with size 65536 with index & history bits 4.
+Correct predictions = 15074695, Total predictions = 16416279, Mis-predictions Rate = 8.17228
+
+
+Predictor with size 1024 with index & history bits 5.
+Correct predictions = 13416798, Total predictions = 16416279, Mis-predictions Rate = 18.2714
+
+
+Predictor with size 65536 with index & history bits 5.
+Correct predictions = 15092853, Total predictions = 16416279, Mis-predictions Rate = 8.06167
+
+
+Predictor with size 1024 with index & history bits 6.
+Correct predictions = 13285507, Total predictions = 16416279, Mis-predictions Rate = 19.0711
+
+
+Predictor with size 65536 with index & history bits 6.
+Correct predictions = 15156862, Total predictions = 16416279, Mis-predictions Rate = 7.67176
+
+
+Predictor with size 1024 with index & history bits 7.
+Correct predictions = 13067776, Total predictions = 16416279, Mis-predictions Rate = 20.3975
+
+
+Predictor with size 65536 with index & history bits 7.
+Correct predictions = 15205299, Total predictions = 16416279, Mis-predictions Rate = 7.3767
+
+
+Predictor with size 1024 with index & history bits 8.
+Correct predictions = 13058229, Total predictions = 16416279, Mis-predictions Rate = 20.4556
+
+
+Predictor with size 65536 with index & history bits 8.
+Correct predictions = 15264859, Total predictions = 16416279, Mis-predictions Rate = 7.01389
+
+
+Predictor with size 1024 with index & history bits 9.
+Correct predictions = 12990165, Total predictions = 16416279, Mis-predictions Rate = 20.8702
+
+
+Predictor with size 65536 with index & history bits 9.
+Correct predictions = 15341705, Total predictions = 16416279, Mis-predictions Rate = 6.54578
+
+
+Predictor with size 1024 with index & history bits 10.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 10.
+Correct predictions = 15394706, Total predictions = 16416279, Mis-predictions Rate = 6.22293
+
+
+Predictor with size 1024 with index & history bits 11.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 11.
+Correct predictions = 15448742, Total predictions = 16416279, Mis-predictions Rate = 5.89377
+
+
+Predictor with size 1024 with index & history bits 12.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 12.
+Correct predictions = 15467226, Total predictions = 16416279, Mis-predictions Rate = 5.78117
+
+
+Predictor with size 1024 with index & history bits 13.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 13.
+Correct predictions = 15537226, Total predictions = 16416279, Mis-predictions Rate = 5.35476
+
+
+Predictor with size 1024 with index & history bits 14.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 14.
+Correct predictions = 15553273, Total predictions = 16416279, Mis-predictions Rate = 5.25701
+
+
+Predictor with size 1024 with index & history bits 15.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 15.
+Correct predictions = 15572180, Total predictions = 16416279, Mis-predictions Rate = 5.14184
+
+
+Predictor with size 1024 with index & history bits 16.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 16.
+Correct predictions = 15582123, Total predictions = 16416279, Mis-predictions Rate = 5.08127
+
+
+Predictor with size 1024 with index & history bits 17.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 17.
+Correct predictions = 15582123, Total predictions = 16416279, Mis-predictions Rate = 5.08127
+
+
+Predictor with size 1024 with index & history bits 18.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 18.
+Correct predictions = 15582123, Total predictions = 16416279, Mis-predictions Rate = 5.08127
+
+
+Predictor with size 1024 with index & history bits 19.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 65536 with index & history bits 19.
+Correct predictions = 15582123, Total predictions = 16416279, Mis-predictions Rate = 5.08127
+*******************************************************************************
+
+
+Gshare Case 3
+Gshare with varying with same index and history bits as from 0 to 19
+
+
+
+Predictor with size 1 with index & history bits 0.
+Correct predictions = 10065192, Total predictions = 16416279, Mis-predictions Rate = 38.6877
+
+
+Predictor with size 2 with index & history bits 1.
+Correct predictions = 10243578, Total predictions = 16416279, Mis-predictions Rate = 37.6011
+
+
+Predictor with size 4 with index & history bits 2.
+Correct predictions = 10475343, Total predictions = 16416279, Mis-predictions Rate = 36.1893
+
+
+Predictor with size 8 with index & history bits 3.
+Correct predictions = 10654992, Total predictions = 16416279, Mis-predictions Rate = 35.095
+
+
+Predictor with size 16 with index & history bits 4.
+Correct predictions = 10750789, Total predictions = 16416279, Mis-predictions Rate = 34.5114
+
+
+Predictor with size 32 with index & history bits 5.
+Correct predictions = 10990276, Total predictions = 16416279, Mis-predictions Rate = 33.0526
+
+
+Predictor with size 64 with index & history bits 6.
+Correct predictions = 11243284, Total predictions = 16416279, Mis-predictions Rate = 31.5114
+
+
+Predictor with size 128 with index & history bits 7.
+Correct predictions = 11474369, Total predictions = 16416279, Mis-predictions Rate = 30.1037
+
+
+Predictor with size 256 with index & history bits 8.
+Correct predictions = 11773408, Total predictions = 16416279, Mis-predictions Rate = 28.2821
+
+
+Predictor with size 512 with index & history bits 9.
+Correct predictions = 12278848, Total predictions = 16416279, Mis-predictions Rate = 25.2032
+
+
+Predictor with size 1024 with index & history bits 10.
+Correct predictions = 12883412, Total predictions = 16416279, Mis-predictions Rate = 21.5205
+
+
+Predictor with size 2048 with index & history bits 11.
+Correct predictions = 13539435, Total predictions = 16416279, Mis-predictions Rate = 17.5243
+
+
+Predictor with size 4096 with index & history bits 12.
+Correct predictions = 14216273, Total predictions = 16416279, Mis-predictions Rate = 13.4014
+
+
+Predictor with size 8192 with index & history bits 13.
+Correct predictions = 14764261, Total predictions = 16416279, Mis-predictions Rate = 10.0633
+
+
+Predictor with size 16384 with index & history bits 14.
+Correct predictions = 15144892, Total predictions = 16416279, Mis-predictions Rate = 7.74467
+
+
+Predictor with size 32768 with index & history bits 15.
+Correct predictions = 15415684, Total predictions = 16416279, Mis-predictions Rate = 6.09514
+
+
+Predictor with size 65536 with index & history bits 16.
+Correct predictions = 15582123, Total predictions = 16416279, Mis-predictions Rate = 5.08127
+
+
+Predictor with size 131072 with index & history bits 17.
+Correct predictions = 15673727, Total predictions = 16416279, Mis-predictions Rate = 4.52327
+
+
+Predictor with size 262144 with index & history bits 18.
+Correct predictions = 15738413, Total predictions = 16416279, Mis-predictions Rate = 4.12923
+
+
+Predictor with size 524288 with index & history bits 19.
+Correct predictions = 15766167, Total predictions = 16416279, Mis-predictions Rate = 3.96017
+*******************************************************************************
+
+
+Tournament Case 1
+Tournament Predictor Accuracy with equal table sizes of Gshare(history bits = index bits), Bimoda and Tournament tables
+
+
+
+Predictor with size 4.
+Correct predictions = 10802174, Total predictions = 16416279, Mis-predictions Rate = 34.1984
+
+
+Predictor with size 8.
+Correct predictions = 11098131, Total predictions = 16416279, Mis-predictions Rate = 32.3956
+
+
+Predictor with size 16.
+Correct predictions = 11372478, Total predictions = 16416279, Mis-predictions Rate = 30.7244
+
+
+Predictor with size 32.
+Correct predictions = 11637787, Total predictions = 16416279, Mis-predictions Rate = 29.1083
+
+
+Predictor with size 64.
+Correct predictions = 12047194, Total predictions = 16416279, Mis-predictions Rate = 26.6143
+
+
+Predictor with size 128.
+Correct predictions = 12560359, Total predictions = 16416279, Mis-predictions Rate = 23.4884
+
+
+Predictor with size 256.
+Correct predictions = 13088800, Total predictions = 16416279, Mis-predictions Rate = 20.2694
+
+
+Predictor with size 512.
+Correct predictions = 13763508, Total predictions = 16416279, Mis-predictions Rate = 16.1594
+
+
+Predictor with size 1024.
+Correct predictions = 14346054, Total predictions = 16416279, Mis-predictions Rate = 12.6108
+
+
+Predictor with size 2048.
+Correct predictions = 14776130, Total predictions = 16416279, Mis-predictions Rate = 9.99099
+
+
+Predictor with size 4096.
+Correct predictions = 15133279, Total predictions = 16416279, Mis-predictions Rate = 7.81541
+
+
+Predictor with size 8192.
+Correct predictions = 15391862, Total predictions = 16416279, Mis-predictions Rate = 6.24025
+
+
+Predictor with size 16384.
+Correct predictions = 15560428, Total predictions = 16416279, Mis-predictions Rate = 5.21343
+
+
+Predictor with size 32768.
+Correct predictions = 15677598, Total predictions = 16416279, Mis-predictions Rate = 4.49969
+
+
+Predictor with size 65536.
+Correct predictions = 15759367, Total predictions = 16416279, Mis-predictions Rate = 4.00159
+
+
+Predictor with size 131072.
+Correct predictions = 15810750, Total predictions = 16416279, Mis-predictions Rate = 3.68859
+
+
+Predictor with size 262144.
+Correct predictions = 15851129, Total predictions = 16416279, Mis-predictions Rate = 3.44262
+
+
+Predictor with size 524288.
+Correct predictions = 15877368, Total predictions = 16416279, Mis-predictions Rate = 3.28278
+*******************************************************************************
+
+
+Tournament Case 2
+Tournament Predictor Accuracy with 2^n storage (i.e. 2^n-2 SaturatingChooser table, 2^n-2 Bimodal table and 2^n-1 Gshare table)
+
+
+
+Predictor with size 4.
+Correct predictions = 10285018, Total predictions = 16416279, Mis-predictions Rate = 37.3487
+
+
+Predictor with size 8.
+Correct predictions = 10605689, Total predictions = 16416279, Mis-predictions Rate = 35.3953
+
+
+Predictor with size 16.
+Correct predictions = 10856362, Total predictions = 16416279, Mis-predictions Rate = 33.8683
+
+
+Predictor with size 32.
+Correct predictions = 11124181, Total predictions = 16416279, Mis-predictions Rate = 32.2369
+
+
+Predictor with size 64.
+Correct predictions = 11516260, Total predictions = 16416279, Mis-predictions Rate = 29.8485
+
+
+Predictor with size 128.
+Correct predictions = 11779943, Total predictions = 16416279, Mis-predictions Rate = 28.2423
+
+
+Predictor with size 256.
+Correct predictions = 12151322, Total predictions = 16416279, Mis-predictions Rate = 25.98
+
+
+Predictor with size 512.
+Correct predictions = 12696169, Total predictions = 16416279, Mis-predictions Rate = 22.6611
+
+
+Predictor with size 1024.
+Correct predictions = 13276898, Total predictions = 16416279, Mis-predictions Rate = 19.1236
+
+
+Predictor with size 2048.
+Correct predictions = 13966932, Total predictions = 16416279, Mis-predictions Rate = 14.9202
+
+
+Predictor with size 4096.
+Correct predictions = 14556111, Total predictions = 16416279, Mis-predictions Rate = 11.3312
+
+
+Predictor with size 8192.
+Correct predictions = 15021689, Total predictions = 16416279, Mis-predictions Rate = 8.49517
+
+
+Predictor with size 16384.
+Correct predictions = 15350365, Total predictions = 16416279, Mis-predictions Rate = 6.49303
+
+
+Predictor with size 32768.
+Correct predictions = 15542902, Total predictions = 16416279, Mis-predictions Rate = 5.32019
+
+
+Predictor with size 65536.
+Correct predictions = 15671943, Total predictions = 16416279, Mis-predictions Rate = 4.53413
+
+
+Predictor with size 131072.
+Correct predictions = 15755148, Total predictions = 16416279, Mis-predictions Rate = 4.02729
+
+
+Predictor with size 262144.
+Correct predictions = 15809977, Total predictions = 16416279, Mis-predictions Rate = 3.6933
+
+
+Predictor with size 524288.
+Correct predictions = 15850945, Total predictions = 16416279, Mis-predictions Rate = 3.44374
+*******************************************************************************
+
