@@ -42,7 +42,7 @@ Gshare table: 2n-1 counters
 As 2n-2 + 2n-2 + 2n-1 is equal to 2n, this becomes a fair "same size" comparison
 
 ## Check Correctness of Implementation
-Another similar program *"predictors_check.cpp"* is written to check the correctness of the implementation. This program takes a small trace file which consist only first 200 entries of original trace file used in main program, it prints contents of pattern history table, history register and prediction result for corresponding to each branch address. This program generates three text files each for scheme with specific history registers and predictor sizes as follows:
+Another similar program *"predictors_check.cpp"* is written to check the correctness of the implementation. This program takes a small trace file which consist only first 201 entries of original trace file used in main program, it prints contents of pattern history table, history register and prediction result for corresponding to each branch address. This program generates three text files each for scheme with specific history registers and predictor sizes as follows:
 
 * **Bimodal**: With 2^3 counters i.e. predictor size of 8:
 	* nNNNTNNN | b7fa3ae4  T | T  correct    3
